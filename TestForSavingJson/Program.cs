@@ -9,7 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<UserDbContext>(options =>  options.UseSqlServer(builder.Configuration.GetConnectionString("UserDbContext")));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
-builder.Services.AddGraphQLServer().AddQueryType<Query>();
+builder.Services.AddGraphQLServer()
+    .AddQueryType<Query>()
+    .AddMutationType<Mutation>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
