@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ogboc\\source\\repos\\TestForSavingJson\\TestForSavingJson\\TestForSavingJson.csproj": {}
+    "C:\\Users\\ogboc\\source\\repos\\TryingGraphql\\TestForSavingJson\\TestForSavingJson.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ogboc\\source\\repos\\TestForSavingJson\\TestForSavingJson\\TestForSavingJson.csproj": {
+    "C:\\Users\\ogboc\\source\\repos\\TryingGraphql\\TestForSavingJson\\TestForSavingJson.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ogboc\\source\\repos\\TestForSavingJson\\TestForSavingJson\\TestForSavingJson.csproj",
+        "projectUniqueName": "C:\\Users\\ogboc\\source\\repos\\TryingGraphql\\TestForSavingJson\\TestForSavingJson.csproj",
         "projectName": "TestForSavingJson",
-        "projectPath": "C:\\Users\\ogboc\\source\\repos\\TestForSavingJson\\TestForSavingJson\\TestForSavingJson.csproj",
+        "projectPath": "C:\\Users\\ogboc\\source\\repos\\TryingGraphql\\TestForSavingJson\\TestForSavingJson.csproj",
         "packagesPath": "C:\\Users\\ogboc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ogboc\\source\\repos\\TestForSavingJson\\TestForSavingJson\\obj\\",
+        "outputPath": "C:\\Users\\ogboc\\source\\repos\\TryingGraphql\\TestForSavingJson\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -30,6 +30,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\ogboc\\Downloads\\telerik": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +49,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[12.11.1, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[12.11.1, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[12.11.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
